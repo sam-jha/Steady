@@ -136,6 +136,13 @@ Built with Vite, React, TypeScript, Tailwind CSS, Recharts, React Router (HashRo
 2. In the repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
 3. Push to `main` (or run the workflow from the **Actions** tab). [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) runs lint, tests and the build, then publishes. The site address is `https://<your-username>.github.io/<repository-name>/`.
 
+### Deploying to Azure (optional, in addition to GitHub Pages)
+Steady also deploys to **Azure Static Web Apps** (free plan) using [`.github/workflows/azure-static-web-apps.yml`](.github/workflows/azure-static-web-apps.yml). The workflow skips itself until Azure is connected:
+1. In the [Azure portal](https://portal.azure.com), choose **Create a resource → Static Web App**. Pick the **Free** plan, create a new resource group, and set **Deployment source** to **Other**.
+2. When it is created, open the resource and choose **Manage deployment token**. Copy the token.
+3. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `AZURE_STATIC_WEB_APPS_API_TOKEN` and paste the token.
+4. Open the **Actions** tab and run **Deploy to Azure Static Web Apps**. The site address (`https://<name>.azurestaticapps.net`) is on the Azure resource's Overview page.
+
 ## References
 
 - Abrams, L. C., & Berge, Z. L. (2010). *[add full reference]*

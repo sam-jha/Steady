@@ -1,0 +1,52 @@
+# Publishes Steady to Azure Static Web Apps as well as GitHub Pages.
+# It does nothing until you add the secret AZURE_STATIC_WEB_APPS_API_TOKEN (see README, "Deploying to Azure").
+name: Deploy to Azure Static Web Apps
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: azure
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      # Secrets can't be tested directly in "if", so copy to a variable first.
+      AZURE_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+    steps:
+      - name: Check Azure is connected
+        run: |
+          if [ -z "$AZURE_TOKEN" ]; then
+            echo "AZURE_STATIC_WEB_APPS_API_TOKEN is not set, so this deploy is skipped."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          fi
+      - uses: actions/checkout@v4
+        if: env.SKIP != 'true'
+      - uses: actions/setup-node@v4
+        if: env.SKIP != 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - if: env.SKIP != 'true'
+        run: npm ci
+      - if: env.SKIP != 'true'
+        run: npm test
+      - if: env.SKIP != 'true'
+        run: npm run build
+        env:
+          # Azure serves the site from the root of its own address, so no sub-folder.
+          VITE_BASE: /
+      - name: Upload to Azure
+        if: env.SKIP != 'true'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: upload
+          app_location: dist # the folder the build produced
+          skip_app_build: true # we already built it above
+          skip_api_build: true
