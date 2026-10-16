@@ -3,7 +3,7 @@
 > A portfolio prototype that shows how an organisation can absorb unexpected staff shortages without burning out the people who remain.
 > **All data is fictional. This is not a clinical tool.**
 
-**Live demo:** https://sam-jha.github.io/steady/
+**Live demo:** https://sam-jha.github.io/Steady/
 
 ## Screenshots
 
