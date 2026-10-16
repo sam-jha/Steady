@@ -1,0 +1,20 @@
+{
+  "id": "video-stress",
+  "title": "Video: managing stress at work (placeholder)",
+  "type": "video",
+  "minutes": 8,
+  "summary": "Placeholder video link. Replace with a video your organisation has chosen.",
+  "body": [
+    "This is a placeholder. Replace the link with a video you have reviewed and trust."
+  ],
+  "themes": [
+    "stress"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=PLACEHOLDER",
+  "placeholder": true
+}

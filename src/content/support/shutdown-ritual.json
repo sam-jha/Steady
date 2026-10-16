@@ -1,0 +1,25 @@
+{
+  "id": "shutdown-ritual",
+  "title": "A five-minute end-of-day shutdown ritual",
+  "type": "exercise",
+  "minutes": 5,
+  "summary": "A short routine to help work stay at work.",
+  "body": [
+    "When you are covering extra work it is easy to carry it home in your head. A repeatable ritual gives your brain a clear stop signal."
+  ],
+  "steps": [
+    "Write down anything unfinished, with the very next step for each.",
+    "Pick the one most important task for tomorrow.",
+    "Close your email and chat, and tidy your desk or workspace.",
+    "Say or think a closing phrase, such as “that’s enough for today”."
+  ],
+  "themes": [
+    "boundaries",
+    "sleep",
+    "workload"
+  ],
+  "bands": [
+    "moderate",
+    "high"
+  ]
+}

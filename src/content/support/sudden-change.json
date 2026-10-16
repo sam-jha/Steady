@@ -1,0 +1,26 @@
+{
+  "id": "sudden-change",
+  "title": "When your workload changes suddenly",
+  "type": "tips",
+  "minutes": 3,
+  "summary": "Quick things to try when plans change at short notice.",
+  "body": [
+    "Sudden change can make everything feel unclear."
+  ],
+  "steps": [
+    "Ask: what are the top three priorities now?",
+    "Ask what has been paused or dropped, so you do not carry it silently.",
+    "Agree who to go to when you get stuck.",
+    "Check in again in a week to see whether the plan still works."
+  ],
+  "themes": [
+    "uncertainty",
+    "workload",
+    "manager"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ]
+}

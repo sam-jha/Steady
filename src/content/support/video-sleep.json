@@ -1,0 +1,20 @@
+{
+  "id": "video-sleep",
+  "title": "Video: sleep basics (placeholder)",
+  "type": "video",
+  "minutes": 6,
+  "summary": "Placeholder video link about building a healthy sleep routine.",
+  "body": [
+    "This is a placeholder. Replace the link with a video you have reviewed and trust."
+  ],
+  "themes": [
+    "sleep"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=PLACEHOLDER",
+  "placeholder": true
+}

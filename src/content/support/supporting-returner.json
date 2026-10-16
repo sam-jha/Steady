@@ -1,0 +1,25 @@
+{
+  "id": "supporting-returner",
+  "title": "Supporting a colleague who is coming back",
+  "type": "article",
+  "minutes": 4,
+  "summary": "For colleagues who covered, and for those welcoming someone back.",
+  "body": [
+    "Handing work back is a transition for everyone. Agree what goes back when, and thank people who covered.",
+    "Share a short summary of what changed rather than expecting them to find out for themselves.",
+    "Do not assume how the person feels. Ask what would help.",
+    "If you covered extra work for a long time, you may feel tired too. It is fine to ask for a lighter period."
+  ],
+  "themes": [
+    "returning",
+    "workload"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "audience": [
+    "colleague-of-absent"
+  ]
+}

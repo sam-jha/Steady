@@ -1,0 +1,25 @@
+{
+  "id": "returning-absence",
+  "title": "Coming back after an absence",
+  "type": "article",
+  "minutes": 5,
+  "summary": "For people returning from reserve duty, parental leave, illness or other time away.",
+  "body": [
+    "Returning can feel strange. Things have changed, you may be tired, and it can be hard to find your feet at once.",
+    "Ask for a short catch-up on what changed, and for a phased workload for the first weeks if that would help. It is a reasonable request.",
+    "Expect some adjustment. You do not have to prove yourself in the first week.",
+    "If you came back from something demanding, such as military service, it is common to need time to switch between very different environments. Support is available if you want it."
+  ],
+  "themes": [
+    "returning",
+    "stress"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "audience": [
+    "returning"
+  ]
+}

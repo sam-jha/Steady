@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* One calm accent colour (teal). Text on it is white; contrast is above 4.5:1. */
+@theme {
+  --color-accent: #1f6b6f;
+  --color-accent-dark: #164e51;
+  --color-accent-soft: #e3f1f1;
+  --color-ink: #1c2b33;
+  --color-muted: #52616b;
+  --color-line: #d6dee2;
+  --color-paper: #f6f8f9;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Clear keyboard focus for everyone. */
+:focus-visible {
+  outline: 3px solid #0b5cad;
+  outline-offset: 2px;
+}
+
+/* Respect people who ask their device for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

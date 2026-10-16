@@ -1,0 +1,25 @@
+{
+  "id": "short-walk",
+  "title": "A five-minute reset walk",
+  "type": "exercise",
+  "minutes": 5,
+  "summary": "A short break that costs almost no time.",
+  "body": [
+    "Short breaks help you stay effective and calm. They do not need to be long."
+  ],
+  "steps": [
+    "Leave your screen and stand up.",
+    "Walk for five minutes, indoors or outdoors, without your phone if you can.",
+    "Notice three things you can see and two you can hear.",
+    "Come back and pick one thing to do next."
+  ],
+  "themes": [
+    "stress",
+    "boundaries"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ]
+}

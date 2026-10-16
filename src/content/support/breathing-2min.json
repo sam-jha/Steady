@@ -1,0 +1,26 @@
+{
+  "id": "breathing-2min",
+  "title": "A two-minute breathing reset",
+  "type": "exercise",
+  "minutes": 2,
+  "timerSeconds": 120,
+  "summary": "A simple slow-breathing exercise you can do at your desk.",
+  "body": [
+    "Slow breathing can help your body settle when you feel tense. Find a comfortable position and press start."
+  ],
+  "steps": [
+    "Sit comfortably and relax your shoulders.",
+    "Breathe in gently through your nose for about 4 seconds.",
+    "Breathe out slowly for about 4 seconds.",
+    "Keep going until the timer ends. If you feel dizzy, stop and breathe normally."
+  ],
+  "themes": [
+    "stress",
+    "sleep"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ]
+}

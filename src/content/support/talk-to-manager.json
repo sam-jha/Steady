@@ -1,0 +1,27 @@
+{
+  "id": "talk-to-manager",
+  "title": "Talking to your manager about workload",
+  "type": "tips",
+  "minutes": 3,
+  "summary": "Practical ways to start the conversation.",
+  "body": [
+    "You do not have to wait until things are bad. A short, specific conversation early is often easier for everyone."
+  ],
+  "steps": [
+    "Pick a calm moment and ask for 15 minutes. “Can we talk about my workload this week?”",
+    "Bring specifics: what you are covering, how many hours, what is slipping.",
+    "Say what you need: something removed, delayed, or someone to help.",
+    "Ask what the plan is and when you will review it together.",
+    "Afterwards, send a two-line summary of what you agreed."
+  ],
+  "themes": [
+    "workload",
+    "manager",
+    "boundaries"
+  ],
+  "bands": [
+    "low",
+    "moderate",
+    "high"
+  ]
+}
